@@ -1,0 +1,992 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background: url('./Media/backgound_img.webp')no-repeat center center/cover;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-attachment: fixed;
+}
+.header_div {
+    height: 50px;
+    width: 100%;
+    background-color: #F4F4F4;
+    position: sticky;
+    top: 0;
+}
+
+.Navbar {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    /* position: fixed; */
+} 
+
+.section_1 {
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+}
+
+.section_1 img {
+    margin-left: 40%;
+    margin-top: 25px;
+}
+
+.section_2 {
+    height: 100%;
+    width: 60%;
+    /* background-color: blueviolet; */
+}
+
+ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li {
+    color: black;
+    /* font-weight: bold; */
+    font-size: 16px;
+    list-style-type: none;
+    font-variant: small-caps;
+}
+
+.section_3 {
+    height: 100%;
+    width: 20%;
+    /* background-color: chartreuse; */
+}
+
+.section_3 input {
+    height: 45px;
+    width: 160px;
+    background-color: rgb(26, 132, 174);
+    color: white;
+    border: none;
+    margin-left: 25px;
+    margin-top: 23px;
+}
+
+.section_3 input:hover {
+    transition: all 1s ease-in-out;
+    background-color: white;
+    color: rgb(26, 132, 174);
+    border: 3px solid rgb(26, 132, 174);
+}
+
+
+.middel_sec {
+    height: 640px;
+    width: 100%;
+    background-color: hsla(240, 100%, 10%, 0.6);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.middel_sec h1 {
+    font-size: 60px;
+    color: white;
+    padding-top: 200px;
+}
+
+.middel_sec h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.middel_sec b {
+    font-size: 20px;
+    color: white;
+}
+
+.middel_sec input {
+    height: 45px;
+    width: 160px;
+    background-color: transparent;
+    color: rgb(133, 206, 234);
+    border: 3px solid rgb(26, 132, 174);
+    margin-left: 25px;
+    margin-top: 23px;
+}
+
+.middel_sec .button_hover:hover {
+    transition: all 1s ease-in-out;
+    background-color: white;
+    color: rgb(26, 132, 174);
+    border: 3px solid rgb(26, 132, 174);
+}
+
+.dentist_Info {
+    height: 600px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Inner_dentist_Info {
+    height: 95%;
+    width: 95%;
+    /* background-color: black; */
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+}
+
+.container .seciont_1 {
+    height: 100%;
+    width: 50%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./Media/dentist.jpg') no-repeat center;
+    background-size: 90% 94%;
+
+}
+
+.container .seciont_2 {
+    height: 100%;
+    width: 50%;
+    /* background-color: violet; */
+}
+
+.container .seciont_2 h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.container .about_bar {
+    height: 8px;
+    width: 95%;
+    margin-left: 20px;
+
+}
+
+.container .about_bar_progress {
+    height: 100%;
+    width: 12%;
+    background-color: rgb(26, 132, 174);
+}
+
+.container .seciont_2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+}
+
+.container .seciont_2 h3 {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.container .about_Experience {
+    height: 15px;
+    width: 92%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container .about_Experience_progress {
+    height: 100%;
+    width: 80%;
+    background-color: rgb(26, 132, 174);
+}
+
+.container .about_mordern {
+    height: 15px;
+    width: 92%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container .about_mordern_progress {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(26, 132, 174);
+}
+
+.container .about_staff {
+    height: 15px;
+    width: 92%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container .about_staff_progress {
+    height: 100%;
+    width: 85%;
+    background-color: rgb(26, 132, 174);
+}
+
+.container .hedings {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.mid_section_2 {
+    height: 250px;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid gray; */
+}
+
+.Inner_mid_section_2 {
+    height: 95%;
+    width: 95%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.Inner_mid_section_2 .Genius_icon {
+    height: 100%;
+    width: 22%;
+    /* background-color: blueviolet; */
+    text-align: center;
+
+}
+
+.Inner_mid_section_2 .Heart_icon {
+    height: 100%;
+    width: 22%;
+    /* background-color: blueviolet; */
+    text-align: center;
+
+}
+
+.Inner_mid_section_2 .book_icon {
+    height: 100%;
+    width: 22%;
+    /* background-color: blueviolet; */
+    text-align: center;
+
+}
+
+.Inner_mid_section_2 .ID_icon {
+    height: 100%;
+    width: 22%;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+.Oue_Services {
+    height: 500px;
+    width: 100%;
+    background: url('./Media/background2.webp') no-repeat center center/cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    z-index: -1;
+
+}
+
+.services_div {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(240, 100%, 10%, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Inner_Oue_Services {
+    height: 90%;
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.Oue_Services_icons {
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+
+.Oue_Services_icons .section1 {
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid white; */
+}
+
+.Oue_Services_icons .section2 {
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid white; */
+    float: left;
+}
+
+.Oue_Services_icons .section2 .services {
+    height: 50%;
+    width: 33.33%;
+    /* border: 1px solid black; */
+}
+
+.Oue_Services_video {
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./Media/video.webp') no-repeat center center/cover;
+    background-size: 90% 90%;
+}
+
+.Oue_Services_video img {
+    position: absolute;
+}
+
+.Pricing_table {
+    height: 780px;
+    width: 100%;
+    /* background-color: aquamarine; */
+
+}
+
+.Pricing_table_head {
+    height: 12%;
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Pricing_main_table {
+    height: 78%;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    font-weight: 900;
+}
+
+.Inner_table_div {
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: blueviolet; */
+}
+
+.Inner_table_div table {
+    /* border: 1px solid black; */
+    table-layout: fixed;
+    /* text-align: center; */
+}
+
+.Inner_table_div .seciont_1 {
+    height: 30px;
+    width: 68%;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #f4f4f4;
+    color: #707070
+}
+
+.Inner_table_div .seciont_2 {
+    height: 30px;
+    width: 18%;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #f4f4f4;
+    color: #707070
+}
+
+.Inner_table_div .seciont_3 {
+    height: 50px;
+    width: 18%;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #f4f4f4;
+    color: #707070
+}
+
+.Pricing_table_button {
+    height: 10%;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pricing_table_button input {
+    height: 45px;
+    width: 160px;
+    background-color: rgb(26, 132, 174);
+    color: white;
+    border: none;
+}
+
+.Pricing_table_button input:hover {
+    transition: all 1s ease-in-out;
+    background-color: white;
+    color: rgb(26, 132, 174);
+    border: 3px solid rgb(26, 132, 174);
+}
+
+.Apointment_Div {
+    height: 720px;
+    width: 100%;
+    background: url('./Media/background3.webp') center center/cover;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.Apointment_Inner_Div {
+    height: 720px;
+    width: 100%;
+    background-color: hsla(240, 90%, 12%, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Apointment_Inner_Main {
+    height: 85%;
+    width: 75%;
+    /* background-color: aqua; */
+}
+
+.Apointmnet_heading {
+    height: 15%;
+    width: 100%;
+    /* background-color: crimson; */
+}
+
+.Apointmnet_heading b {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35%;
+    color: white;
+    font-weight: 400;
+}
+
+.Apointmnet_heading .about_bar {
+    height: 4px;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+.Apointmnet_heading .about_bar_progress {
+    height: 100%;
+    width: 82%;
+    background-color: rgb(26, 132, 174);
+    border-radius: 30px;
+}
+
+.Apointmnet_Mid_sec {
+    height: 70%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+
+.Apointmnet_Mid_sec input {
+    height: 45px;
+    width: 48%;
+    background-color: #212529;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-style: italic;
+    color: lightslategrey;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Apointmnet_Mid_sec select {
+    height: 45px;
+    width: 48%;
+    background-color: #212529;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-style: italic;
+    color: lightslategrey;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Apointmnet_Mid_sec textarea {
+    height: 100px;
+    width: 98%;
+    background-color: #212529;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-style: italic;
+    color: lightslategrey;
+    border: none;
+    text-align: center;
+}
+
+.Apointmnet_button {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Apointmnet_button input {
+    height: 45px;
+    width: 160px;
+    background-color: rgb(26, 132, 174);
+    color: white;
+    border: none;
+}
+
+.Apointmnet_button input:hover {
+    transition: all 1s ease-in-out;
+    background-color: white;
+    color: rgb(26, 132, 174);
+    border: 3px solid rgb(26, 132, 174);
+}
+
+.Our_Dentist {
+    height: 500px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Our_Dentist_Inner {
+    height: 90%;
+    width: 80%;
+    /* background-color: coral; */
+}
+
+.Our_Dentist_heading {
+    height: 20%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.Our_Dentist_heading h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.Our_Dentist_heading .about_bar {
+    height: 4px;
+    width: 10%;
+    margin-left: 46%;
+    margin-top: 15px;
+}
+
+.Our_Dentist_heading .about_bar_progress {
+    height: 100%;
+    width: 82%;
+    background-color: rgb(26, 132, 174);
+    border-radius: 30px;
+}
+
+.Our_Dentist_Photos {
+    height: 80%;
+    width: 100%0;
+    /* background-color: #212529; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Our_Dentist_Photos .photos {
+    height: 100%;
+    width: 30%;
+    /* background-color: crimson; */
+    /* border: 1px solid black; */
+}
+
+.Our_Dentist_Photos .img1 {
+    height: 100%;
+    width: 30%;
+    background: url('./Media/img1.webp') no-repeat center center/cover;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.Our_Dentist_Photos .img2 {
+    height: 100%;
+    width: 30%;
+    background: url('./Media/img2.webp') no-repeat center center/cover;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.Our_Dentist_Photos .img3 {
+    height: 100%;
+    width: 30%;
+    background: url('./Media/img3.webp') no-repeat center center/cover;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.img2_color {
+    height: 20%;
+    width: 100%;
+    background-color: hsla(240, 100%, 0%, 0.9);
+    margin-top: 79%;
+}
+
+.Outer_div {
+    height: 330px;
+    width: 100%;
+    background: url('./Media/background4.jpeg') no-repeat center center/cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.Inner_container {
+    height: 320px;
+    width: 100%;
+    background-color: hsla(240, 95%, 10%, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dentist_Info {
+    height: 80%;
+    width: 80%;
+    /* background-color: greenyellow; */
+    display: flex; 
+}
+
+.Dentist_Info .Image {
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Image img {
+    border-radius: 50%;
+}
+
+.Dentist_Info .Information {
+    height: 100%;
+    width: 80%;
+    /* background-color: yellowgreen; */
+    line-height: 30px;
+    /* text-align: center; */
+}
+
+.Information h3 {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.Outer_news {
+    height: 650px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main_news {
+    height: 85%;
+    width: 80%;
+    /* background-color: blueviolet; */
+}
+
+.news_head {
+    height: 20%;
+    width: 100%;
+    /* background-color:chocolate; */
+}
+
+.news_head h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.news_head .about_bar {
+    height: 4px;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+.news_head .about_bar_progress {
+    height: 100%;
+    width: 82%;
+    background-color: rgb(26, 132, 174);
+    border-radius: 30px;
+}
+
+.news_Mid {
+    height: 80%;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.news_Mid .box {
+    height: 95%;
+    width: 26%;
+    background-color: #707070;
+    box-shadow:0px 0px 10px gray;
+}
+
+.box_img {
+    height: 45%;
+    width: 100%;
+    background: url(./Media/News_img1.webp) no-repeat center center/cover;
+    background-size: 100% 100%;
+}
+
+.box_Info {
+    padding: 22px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.box_img2 {
+    height: 45%;
+    width: 100%;
+    background: url(./Media/News_img2.webp) no-repeat center center/cover;
+    background-size: 100% 100%;
+}
+
+.box_Info2 {
+    padding: 22px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.box_img3 {
+    height: 45%;
+    width: 100%;
+    background: url(./Media/news_img3.webp) no-repeat center center/cover;
+    background-size: 100% 100%;
+}
+
+.box_Info3 {
+    padding: 22px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.footer_div{
+    margin-top: 700px;
+    height: 500px;
+    width: 100%;
+    background: url('./Media/background5.webp') no-repeat center center/cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+   z-index: -1;
+}
+.footer_Inner{
+    height: 500px;
+    width: 100%;
+    background-color: hsla(240, 100%, 10%, 0.6);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.footer_main{
+    height: 80%;
+    width: 80%;
+    margin-top:100px;
+    /* background-color: aqua; */
+}
+.footer_info{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: burlywood; */
+    border-bottom: 1px solid white;
+}
+.footer_info .sec1{
+    height: 90%;
+    width: 25%;
+    /* background-color: crimson; */
+}
+.sec1 .sec1img{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.sec1 .sec1mid{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 25px;
+    color: white;
+    font-weight: 100;
+}
+.sec1 .sec1Info{
+
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 32px;
+}
+.footer_info .sec2{
+    height: 90%;
+    width: 22%;
+    /* background-color: crimson; */
+}
+.sec2_heading{
+    height: 20%;
+    width: 100%;
+}
+.sec2_heading{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    font-style: inherit;
+}
+.sec2_Info{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.sec2_Info .colom1{
+    height: 100%;
+    width: 50%;
+    /* background-color: bisque; */
+    color: white;
+   padding-top: 30px;
+   padding-left: 20px;
+   line-height: 35px; 
+}
+.sec2_Info .colom2{
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+    color: white;
+   padding-top: 30px;
+   padding-left: 40px;
+   line-height: 35px;
+}
+
+.footer_info .sec3{
+    height: 90%;
+    width: 20%;
+    /* background-color: crimson; */
+}
+.sec3_Info{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.sec3_Info .colom1{
+    height: 100%;
+    width: 50%;
+    /* background-color: bisque; */
+    color: white;
+   padding-top: 30px;
+   padding-left: 20px;
+   line-height: 35px; 
+}
+.sec3_Info .colom2{
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+    color: white;
+   /* padding-top: px; */
+   padding-left: 40px;
+   line-height: 35px;
+}
+.footer_info .sec4{
+    height: 90%;
+    width: 22%;
+    /* background-color: crimson; */
+}
+.sec4 .sec4_R1{
+    height: 50%;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: white;
+}
+.sec4 .sec4_R2{
+    height: 50%;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.sec4_R2 .papar{
+    height: 35px;
+    width: 90%;
+    background-color: #f4f4f4;
+    margin-top:-20px ;
+    display: flex;
+}
+.papar input{
+    height: 100%;
+    width: 80%;
+    border: none;
+}
+.papar i{
+    height: 100%;
+    width: 20%;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.Copywright{
+    height: 15%;
+    width: 100%;
+    /* background-color: firebrick; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
